@@ -21,7 +21,7 @@
     @if (Auth::user()->level != 'Admin')
       <style>
         .navbar a.title {
-          color: #fff;
+          color: rgb(69, 23, 233);
           height: 5rem;
           text-decoration: none;
           font-size: 1.5rem;
@@ -82,13 +82,13 @@
             <div class="container my-auto">
               <div class="copyright text-center my-auto">
                 <span>
-                  Copyright &copy; 2020
+                  Copyright &copy; 2022
                   @if (date('Y') != '2020')
                     - {{ date('Y') }}
                   @endif
                   &nbsp; All rights reserved • by
-                  <a href="https://github.com/adhiariyadi/" target="_blank"
-                    >Adhi Ariyadi</a
+                  <a href="https://github.com/ajisukmanagra/app-ticket-travel" target="_blank"
+                    >AJI SUKMA NAGARA</a
                   >.
                 </span>
               </div>
@@ -107,7 +107,7 @@
               <div class="title-icon rotate-n-15">
                 <i class="fas fa-ticket-alt"></i>
               </div>
-              <div class="title-text mx-3">Ticket</div>
+              <div class="title-text mx-3">Travel</div>
             </a>
             <!-- Topbar Navbar -->
             <ul class="navbar-nav ml-auto">
@@ -156,13 +156,13 @@
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
             <span>
-              Copyright &copy; 2020
-              @if (date('Y') != '2020')
+              Copyright &copy; 2022
+              @if (date('Y') != '2021')
                 - {{ date('Y') }}
               @endif
               &nbsp; All rights reserved • by
-              <a href="https://github.com/adhiariyadi/" target="_blank"
-                >Adhi Ariyadi</a
+              <a href="/https://github.com/ajisukmanagra/app-ticket-travel" target="_blank"
+                >AJI SUKMA NAGARA</a
               >.
             </span>
           </div>
