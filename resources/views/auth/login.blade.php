@@ -8,6 +8,11 @@
         <div class="row">
           <div class="col-12">
             <div class="p-5">
+                <div class="logo-circle">
+                    <center>
+                        <img src="{{ asset('img/logo.png') }}" alt="logo" width="140px" height="150px">
+                    </center>
+                </div>
               <div class="text-center">
                 <h1 class="h4 text-gray-900 mb-4">Selamat Datang!</h1>
               </div>
