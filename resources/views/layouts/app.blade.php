@@ -21,7 +21,7 @@
     @if (Auth::user()->level != 'Admin')
       <style>
         .navbar a.title {
-          color: rgb(69, 23, 233);
+          color: #192a56;
           height: 5rem;
           text-decoration: none;
           font-size: 1.5rem;
@@ -82,11 +82,11 @@
             <div class="container my-auto">
               <div class="copyright text-center my-auto">
                 <span>
-                  Copyright &copy; 2022
+                  Copyright &copy; 2021
                   @if (date('Y') != '2020')
                     - {{ date('Y') }}
                   @endif
-                  &nbsp; All rights reserved • by
+                  &nbsp; Ticket
                   <a href="https://github.com/ajisukmanagra/app-ticket-travel" target="_blank"
                     >AJI SUKMA NAGARA</a
                   >.
@@ -156,8 +156,8 @@
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
             <span>
-              Copyright &copy; 2022
-              @if (date('Y') != '2021')
+              Dibuat &copy; 2022
+              @if (date('Y') != '2020')
                 - {{ date('Y') }}
               @endif
               &nbsp; All rights reserved • by
