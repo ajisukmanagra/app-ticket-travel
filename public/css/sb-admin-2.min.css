@@ -2723,23 +2723,23 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #2e59d9;
-    border-color: #2653d4
+    background-color: #f0a210;
+    border-color: #ec840d
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
     color: #fff;
-    background-color: #2e59d9;
-    border-color: #2653d4;
+    background-color: #d9482e;
+    border-color: #d45726;
     box-shadow: 0 0 0 .2rem rgba(105, 136, 228, .5)
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #4e73df;
-    border-color: #4e73df
+    background-color: #df584e;
+    border-color: #df834e
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
