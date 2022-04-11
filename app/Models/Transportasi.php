@@ -13,12 +13,18 @@ class Transportasi extends Model
         'name',
         'kode',
         'jumlah',
-        'category_id'
+        'category_id',
+        'wisata_id'
     ];
 
     public function category()
     {
         return $this->belongsTo('App\Models\Category', 'category_id');
+    }
+
+    public function wisata()
+    {
+        return $this->belongsTo('App\Models\Wisata', 'wisata_id');
     }
 
     public function kursi($id)

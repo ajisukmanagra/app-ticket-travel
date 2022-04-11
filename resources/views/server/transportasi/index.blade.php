@@ -32,7 +32,7 @@
     .text-muted {
       color: #6c757d !important;
     }
-    
+
     .select2-container .select2-selection--single {
       display: block;
       width: 100%;

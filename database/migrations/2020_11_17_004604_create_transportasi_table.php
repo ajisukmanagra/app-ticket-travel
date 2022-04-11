@@ -19,6 +19,7 @@ class CreateTransportasiTable extends Migration
             $table->string('kode', 10);
             $table->integer('jumlah');
             $table->unsignedBigInteger('category_id');
+            $table->unsignedBigInteger('wisata_id');
             $table->timestamps();
 
             $table->foreign('category_id')->references('id')->on('category');
