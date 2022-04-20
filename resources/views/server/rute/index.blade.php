@@ -94,7 +94,7 @@
             <tr>
               <td>No</td>
               <td>Name</td>
-              <td>Tujuan & Rute</td>
+              <td>Tujuan wisata & Rute</td>
               <td>Harga</td>
               <td>Waktu</td>
               <th>Action</th>
@@ -178,7 +178,7 @@
           <div class="modal-body">
             <input type="hidden" name="id">
             <div class="form-group">
-              <label for="tujuan">Tujuan</label>
+              <label for="tujuan">Tujuan wisata</label>
               <input
                 type="text"
                 class="form-control"

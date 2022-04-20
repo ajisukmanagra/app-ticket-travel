@@ -51,7 +51,7 @@
       <div class="card-body">
         <input type="hidden" name="id" value="{{ $rute->id }}">
         <div class="form-group">
-          <label for="tujuan">Tujuan</label>
+          <label for="tujuan">Tujuan wisata</label>
           <input
             type="text"
             class="form-control"
