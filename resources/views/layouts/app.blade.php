@@ -122,12 +122,10 @@
                 </a>
                 <!-- Dropdown - User Information -->
                 <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                  @if (Auth::user()->level == "Penumpang")
                     <a class="dropdown-item" href="{{ route('history') }}">
                       <i class="fas fa-history fa-sm fa-fw mr-2 text-gray-400"></i>
                       History
                     </a>
-                  @endif
                   <a class="dropdown-item" href="{{ route('pengaturan') }}">
                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                     Setting
