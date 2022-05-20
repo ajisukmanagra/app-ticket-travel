@@ -119,10 +119,12 @@
             </tr>
           </table>
         </div>
+        @if (Auth::user()->level == "Penumpang")
         @if ($data->status == "Belum Bayar" && Auth::user()->level != "Penumpang")
           <div class="card-body">
             <a href="{{ route('pembayaran', $data->id) }}" class="btn btn-primary btn-block btn-sm text-white">Verifikasi</a>
           </div>
+        @endif
         @endif
       </div>
     </div>
